@@ -1,0 +1,63 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+button,
+input,
+textarea {
+  border: none;
+  background: none;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+}
+
+/* Optional: Apply a light background to body for visibility */
+body {
+    background-color: #eed3b1;
+    position: relative;
+}
+
+
+
+.container {
+  max-width: 1344px;
+  margin: 0 auto;
+  padding: 0 120px;
+}
+
+
+input:focus {
+  outline: none; 
+}
+
+input[type="checkbox"]:focus {
+  outline: none; /* Removes the default focus outline */
+  box-shadow: none; /* Removes any focus glow (if present) */
+}
